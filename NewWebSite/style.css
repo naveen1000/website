@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+}
+.header{
+background-color: black;
+color: aliceblue;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-style: initial;
+}
+.footer{
+    background-color: black;
+    color: aliceblue;   
+}
+
+
