@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<title>Kerala - All about kerala and me - www.kerala.me</title>
+<style type="text/css">
+html,body{height:100%;margin:0;padding:0}
+ul,li{text-indent:0;text-decoration:none;margin:0;padding:0}
+img{border:0}
+body{background-color:#000;color:#999;font:100%/18px helvetica, arial, sans-serif}
+canvas{cursor:crosshair;display:block;left:0;position:absolute;top:0;z-index:20}
+#bg img{width:100%; height:80%;}
+
+audio{position:fixed;display:none;bottom:0;left:0;right:0;width:100%;z-index:5}
+</style>
+<link rel="shortcut icon" type="image/x-icon" href="https://kerala.me/favicon.ico">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-16233284-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</head>
+<body>
+
+<div id="bg"><img id="bgimg" src="bg1.jpg" /></div>
+<script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+<script src="f.js"></script>
+
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+<center>
+<div class="w3-content w3-section" style="max-width:400px">
+
+  
+
+   <div class="mySlides w3-container w3-red">
+    <h1 style="color:green;font-size:40px; "><i>Happy</i></h1>
+   </div>
+
+   <div class="mySlides w3-container w3-red">
+    <h1 style="color:green;font-size:40px; "><i>Independence Day</i></h1>
+   </div>
+     <img class="mySlides" src="img4.jpg" style="width:90%">
+   <img class="mySlides" src="img2.jpg" style="width:90%">
+    <img class="mySlides" src="img3.jpg" style="width:90%">
+  </div>
+
+</center>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+<marquee> <p style="color:red;font-size:10px;"> You will find the latest information in this site </p></marquee>
+
+<marquee> <p style="color:green;font-size:15px;"> Website Designed and Developed by Naveen kumar </p></marquee>
+
+</body>
+</html>
