@@ -1,0 +1,10 @@
+<table>" id: " . $row["id"]. "  - Name: " . $row["uname"]. " -pasword  " . $row["password"]. "<br>"</table>;
+
+
+
+ echo '<table border=1>
+<tr>
+<td>'.$row["uname"].'</td>
+<td>'.$row["password"].'</td>
+</tr>
+</table>';
